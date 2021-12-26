@@ -1,0 +1,165 @@
+body {
+    background: url('./images/bg.png') no-repeat;
+    background-size: 100% 70%;
+    /* background-attachment:local; */
+}
+
+a {
+    text-decoration: none!important;
+    font-size: 20px;
+    color: white!important;
+}
+
+li {
+    list-style: none!important;
+    margin: 10px;
+}
+
+.ul-nav a {
+    padding-bottom: 48px;
+    font-weight: 700;
+    /* border-bottom: 2px solid black; */
+    transition: all .4s ease;
+}
+
+.active {
+    border-bottom: 3px solid rgb(214, 97, 97);
+}
+
+.ul-nav a:hover {
+    border-bottom: 2px solid rgb(214, 97, 97);
+    color: rgb(214, 97, 97)!important;
+    text-shadow: 1px 1px 2px white;
+}
+
+.p-intro {
+    background-color: hsl(182, 25%, 50%,0.5);
+    position: absolute;
+    left: 8%;
+    top: 20%;
+    max-width: 400px;
+}
+
+.intro-container {
+    height: 100vh;
+}
+
+.serv-container {
+    min-height: 100vh;
+    background-color: aliceblue;
+    position: relative;
+}
+
+.res-text {
+    margin: 10px;
+}
+
+.port-container {
+    min-height: 100vh;
+    background-color: ivory;
+}
+
+.cat {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 10px;
+    padding: 20px;
+}
+
+.cat span {
+    margin: 10px;
+    padding: 8px;
+}
+
+.cat span:first-child {
+    background-color: lightcoral;
+}
+
+.img-cont div {
+    max-width: 300px;
+    /* height: 300px; */
+    overflow: hidden;
+}
+
+.img-cont div:hover {
+    /* height: 400px; */
+    transition: all 1s ease;
+}
+
+.img-cont div:hover h4 {
+    transition: all 1s ease;
+    transform: translate(0,-50px);
+    color: white!important;
+}
+
+.img-cont img:hover {
+    transition: all .5s ease-in-out;
+    transform: scale(1.2);
+}
+
+
+.img-cont div span {
+    overflow: hidden;
+    height: 300px;
+    display: block;
+}
+
+.more-btn {
+    margin: 10px auto;
+}
+
+/* .vid {
+    max-width: 800px;
+} */
+
+.vid-cont {
+    background-color: black;
+    text-align: center;
+    position: relative;
+    /* width: 700px; */
+}
+
+.vid-text-div {
+    background-color: hsl(203, 92%, 75%, 0.5);
+    position: absolute;
+    top: 10%;
+    margin: 0 30%;
+    max-width: 400px;
+    max-height: 300px;
+    padding: 10px;
+}
+
+.vid-text-div h3,p {
+    font-size: 2vw;
+    font-weight: bold;
+
+}
+
+.about-cont {
+    min-height: 100vh;
+}
+
+.div1-about {
+    background: url('./images/gr.jpg') no-repeat;
+    background-size: 100% 100%;
+    min-height: 50vh;
+    padding: 10px;
+}
+
+.div2-about {
+    background-color: rgba(74, 85, 85, 0.5);
+    /* margin-top: 10%; */
+    max-width: 800px;
+    margin: 10px auto;
+}
+
+.test-skill-cont {
+    background-color: darkgray;
+}
+
+.test-1 img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
