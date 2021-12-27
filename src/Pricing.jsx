@@ -5,8 +5,8 @@ import { FcCurrencyExchange } from "react-icons/fc";
 const Pricing = () => {
     return (
         <React.Fragment>
-            <div id='price' className="price-cont p-2 mt-4 container-fluid">
-                <h2 className='text-center fw-bold fs-2'>Pricing</h2>
+            <div id='price' className="price-cont text-light p-2 mt-4 container-fluid">
+                <h2 className='text-center fw-bold fs-1'>Pricing</h2>
                 <h3  className='text-center fs-1' ><FcCurrencyExchange/></h3>
                 <p className='text-center fs-5'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque iure possimus a ipsa blanditiis.</p>
 
@@ -14,7 +14,7 @@ const Pricing = () => {
 
                     <div className="row p-4">
 
-                        <div className="col-lg-3 price-col p-2 text-center border-dark col-md-6 col-sm-12">
+                        <div className="col-lg-3 price-col mt-3  p-2 text-center border-dark col-md-6 col-sm-12">
                             <p className='fs-3 fw-bold ' >Start</p>
                             {/* <hr/> */}
                             <div className="span-cont p-2">
@@ -30,7 +30,7 @@ const Pricing = () => {
                             <button className='btn btn-primary'>Buy Now</button>
                         </div>
 
-                        <div className="col-lg-3 price-col p-2 text-center border-dark col-md-6 col-sm-12">
+                        <div className="col-lg-3 price-col mt-3 p-2 text-center border-dark col-md-6 col-sm-12">
                             <p className='fs-3 fw-bold' >Premium</p>
                             {/* <hr/> */}
                             <div className="span-cont p-2">
@@ -46,7 +46,7 @@ const Pricing = () => {
                             <button className='btn btn-primary'>Buy Now</button>
                         </div>
 
-                        <div className="col-lg-3 price-col p-2 text-center border-dark  col-md-6 col-sm-12">
+                        <div className="col-lg-3 price-col p-2 mt-3  text-center border-dark  col-md-6 col-sm-12">
                             <p className='fs-3 fw-bold' >Pro</p>
                             {/* <hr /> */}
                             <div className="span-cont p-2">
@@ -62,7 +62,7 @@ const Pricing = () => {
                             <button className='btn btn-primary'>Buy Now</button>
                         </div>
 
-                        <div className="col-lg-3 price-col p-2 text-center border-dark col-md-6 col-sm-12">
+                        <div className="col-lg-3 price-col p-2 mt-3  text-center border-dark col-md-6 col-sm-12">
                             <p className='fs-3 fw-bold' >Platinum</p>
                             {/* <hr/> */}
                             <div className="span-cont p-2">

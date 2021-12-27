@@ -37,40 +37,44 @@ const TestSkills = () => {
                         <p className='text-center fs-5'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem cupiditate officiis cum natus consequuntur qui ratione.</p>
 
                         <div className="proge ">
+                            <h3 className='text-danger' >HTML</h3>
                             <div className="progress m-2">
                                 <div className="progress-bar fw-bold text-dark bg-danger fs-3" 
                                     role="progressbar" 
                                     style={{width: '85%'}}
                                     aria-valuenow="25" 
                                     aria-valuemin="0" 
-                                    aria-valuemax="100">HTML 85%
+                                    aria-valuemax="100">85%
                                 </div>
                             </div>
+                            <h3 className='text-primary' >Css</h3>
                             <div className="progress m-2">
                                 <div className="progress-bar fw-bold  text-dark  fs-3" 
                                     role="progressbar" 
                                     style={{width: '65%'}}
                                     aria-valuenow="25" 
                                     aria-valuemin="0" 
-                                    aria-valuemax="100">CSS 65%
+                                    aria-valuemax="100">65%
                                 </div>
                             </div>
+                            <h3 className='text-warning' >Javascript</h3>
                             <div className="progress m-2">
                                 <div className="progress-bar fw-bold  text-dark  bg-warning fs-3" 
                                     role="progressbar" 
                                     style={{width: '45%'}}
                                     aria-valuenow="25" 
                                     aria-valuemin="0" 
-                                    aria-valuemax="100">JavaScript 45%
+                                    aria-valuemax="100">45%
                                 </div>
                             </div>
+                            <h3 className='text-info' >React</h3>
                             <div className="progress m-2">
                                 <div className="progress-bar fw-bold  text-dark  bg-info fs-3" 
                                     role="progressbar" 
                                     style={{width: '25%'}}
                                     aria-valuenow="25" 
                                     aria-valuemin="0" 
-                                    aria-valuemax="100">React 25%
+                                    aria-valuemax="100">25%
                                 </div>
                             </div>
                         </div>

@@ -6,7 +6,7 @@ const Contact = () => {
     return (
         <React.Fragment>
             <div id='contact' className="contact-cont container-fluid">
-                <h2 className='text-center fs-1 fw-bold' >Contact Us</h2>
+                <h2 className='text-center text-danger fs-1 fw-bold' >Contact Us</h2>
                 <h3 className='text-center fs-1' ><FcAssistant /></h3>
 
                 <div className="row p-2 mt-4 text-center">
