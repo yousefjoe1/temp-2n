@@ -5,7 +5,8 @@ import Serv from './Services'
 import Portfolio from './Portfolio'
 import vid from './video/vid.mp4'
 import About from './About'
-import TestSkills from './TestSkills'
+import Pricing from './Pricing'
+import Contact from './Contact'
 
 const  App =(props)=> {
 
@@ -25,7 +26,8 @@ const  App =(props)=> {
                 </div>
             </div>
             <About />
-            <TestSkills />
+            <Pricing />
+            <Contact />
         </React.Fragment>
 
     )

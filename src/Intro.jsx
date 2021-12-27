@@ -3,7 +3,7 @@ import React from 'react';
 const Intro = () => {
     return (
         <React.Fragment>
-            <div className="intro-container">
+            <div className="intro-container container-fluid">
                 <div>
                     <p className='rounded p-3 fs-5 fw-bold text-light p-intro'>
                         <h2 className='text-primary fw-bold bg-white text-center'>Hello World!</h2>

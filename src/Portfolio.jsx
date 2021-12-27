@@ -17,7 +17,7 @@ const Portfolio = () => {
                 <div className="text-div text-center p-3 m-2">
                     <h2 className='text-center fw-bold fs-1'>Portfolio</h2>
                     <FaProductHunt className='fs-2'/>
-                    <p style={{maxWidth: 300,margin: '0 auto'}}>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure totam exercitationem blanditiis cupiditate dicta, labore harum corporis dolores.</p>
+                    <p style={{maxWidth: 350,margin: '0 auto'}}>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure totam exercitationem blanditiis cupiditate dicta, labore harum corporis dolores.</p>
                 </div>
 
                 <div className="cat text-center">

@@ -1,8 +1,24 @@
-import React from 'react'
+// import React from 'react'
 import logo from './images/logo1.jpg'
-import { BsFillCaretDownFill } from "react-icons/bs";
+// import { BsFillCaretDownFill } from "react-icons/bs";
+import AnchorLink from 'react-anchor-link-smooth-scroll'
+import React, { useRef } from 'react';
+
 
 const Nav = (props) => {
+
+    const ulref = useRef(null);
+
+    window.addEventListener('scroll',()=>{
+        if(window.pageYOffset > 20){
+            // console.log(ulref.current.classList);
+            ulref.current.classList.add('fixed-nav-ul')
+        }else {
+            ulref.current.classList.remove('fixed-nav-ul')
+        }
+
+    })
+
     return (
         <React.Fragment>
             <div className="container  ">
@@ -13,13 +29,13 @@ const Nav = (props) => {
                         <img src={logo} alt="" width="100" height="84" className="d-inline-block align-text-top"/>
                         <span className='fw-bold fs-3 text-white'>GO</span>
                         </a>
-                        <ul className='d-flex ul-nav flex-wrap justify-content-between'>
-                            <li><a className='active' href="#">Home</a></li>
-                            <li><a href="#serv">Sevices</a></li>
-                            <li><a href="#port">Portfolio</a></li>
-                            <li><a href="#about">About</a></li>
-                            <li><a href="#price">Pricing</a></li>
-                            <li><a href="#contact">Contact</a></li>
+                        <ul ref={ulref} className='d-flex ul-nav flex-wrap justify-content-between'>
+                            <li><AnchorLink className='active' href="#">Home</AnchorLink></li>
+                            <li><AnchorLink href="#serv">Sevices</AnchorLink></li>
+                            <li><AnchorLink href="#port">Portfolio</AnchorLink></li>
+                            <li><AnchorLink href="#about">About</AnchorLink></li>
+                            <li><AnchorLink href="#price">Pricing</AnchorLink></li>
+                            <li><AnchorLink href="#contact">Contact</AnchorLink></li>
                         </ul>
                         </div>
                 </nav>

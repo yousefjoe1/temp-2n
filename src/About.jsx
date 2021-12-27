@@ -4,14 +4,15 @@ import { BsCupStraw } from "react-icons/bs";
 import { FcKindle } from "react-icons/fc";
 import { FcFeedback } from "react-icons/fc";
 import { FcGraduationCap } from "react-icons/fc";
+import TestSkills from './TestSkills'
 
 const About = () => {
     return (
         <React.Fragment>
-            <div className="about-cont bg-secondary p-2 container-fluid">
+            <div id='about' className="about-cont bg-secondary p-2 container-fluid">
                 <h2 className='text-center text-white'>About</h2>
-                <p className='text-center text-info'><BsFillQuestionOctagonFill /></p>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus fugiat aperiam eaque cupiditate libero. Ullam, cum mollitia?</p>
+                <p className='text-center fs-2 text-info'><BsFillQuestionOctagonFill /></p>
+                <p className='text-light text-center'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus fugiat aperiam eaque cupiditate libero. Ullam, cum mollitia?</p>
                 <div className="div1-about">
                     <div className="div2-about rounded text-white">
                         <div className="row text-center">
@@ -42,6 +43,7 @@ const About = () => {
                         </div>
                     </div>
                 </div>
+            <TestSkills />
             </div>
         </React.Fragment>
     );
